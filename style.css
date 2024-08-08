@@ -1,0 +1,52 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #25d336;
+    color: #e40f0f;
+    padding: 10px 0;
+}
+
+.navbar {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(199, 28, 28);
+}
+
+.hero {
+    background-image: url('fitness-background.jpg');
+    background-size: cover;
+    color: rgb(188, 39, 39);
+    padding: 100px 50px;
+    text-align: center;
+}
+
+.program-list {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+program-list article {
+    flex-basis: 30%;
+}
+
+footer {
+    background-color: #362182;
+    color: #bccf2b;
+    text-align: center;
+    padding: 10px 0;
+}
